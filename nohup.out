@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/var/www/html/mydumpsterrentalhouston/mydumpsterrentalhouston.py", line 1070, in <module>
+    all_pages_protocol()
+  File "/var/www/html/mydumpsterrentalhouston/mydumpsterrentalhouston.py", line 952, in all_pages_protocol
+    site_root= read_root_file('Site Root')
+  File "/var/www/html/mydumpsterrentalhouston/mydumpsterrentalhouston.py", line 625, in read_root_file
+    fp = open(f'static/aloomaspecial/records/{save_file}.txt', "r", encoding="utf-8-sig").read()
+FileNotFoundError: [Errno 2] No such file or directory: 'static/aloomaspecial/records/site-root.txt'
